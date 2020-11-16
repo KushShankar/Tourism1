@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css1/bootstrap.min.css">
+	<script type="text/javascript" src="js1/jquery.min.js"></script>
+	<script type="text/javascript " src="js1/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css1/nav.css">
+<link rel="stylesheet" href="css1/jquery.bxslider.css">
+  <script src="js1/jquerybx.min.js"></script>
+  <script src="js1/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        pager:false,
+        controls:true,
+        auto:true
+      });
+      $(window).scroll(function(){
+          if ($(this).scrollTop()>0) 
+          {
+            $('.top').fadeIn();
+          }
+          else
+          {
+            $('.top').fadeOut(); 
+          }
+        });
+      });
+
+    //smooth scrolling
+
+  </script>
+  <style type="text/css">
+    .top
+    {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background-color: rgba(255,0,0,0.5);
+      box-shadow: 0px 0px 5px #000;
+      border-radius: 100%;
+      padding: 10px 12px;
+      border: 2px solid #fff;
+      display: none;
+    }
+    .top a
+    {
+      color: #fff;
+    }
+  </style>
+
+</head>
+<body id="main">
+  <div class="top">
+    <a href="#main"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+  </div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><h4>Home</h4><span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html"><h4>About Us</h4></a></li>
+        <li><a href="product.html"><h4>Our Facility</h4></a></li>
+        <li><a href="contact.html"><h4>Contact Us</h4></a></li>
+        
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+        
+        <span class="input-group-btn">
+        	<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span> 
+         </div>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+       <div class="slider">
+    <div><img src="images/Graphic.jpg"></div>
+    <div><img src="images/Graphic1.jpg"></div>
+    <div><img src="images/Graphic2.jpg"></div>
+</div>
+
+	<!--img rounded img circle img responsive-->
+<div class="courses ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">About Us</h1>
+        <br>
+         <div align="justify">
+        <p>It is located in the commercial capital city of india and is found to be one of the oldest and luxurious hotel in the city
+           which  was built 21 year before the geteway of india and offers excellent view during nights with the moon light and the ocean.            
+          .      </p>
+          <p>It also provide excellent residence of the tourists and guest with luxurious room along with spa facility,bars,fitness clubs,
+              swimming pool,night clubs,restaurant,cafe and many more.
+           </p>
+        <p>Taj Mahal Palace Hotel is also one of the most preferred hotels for the travelers who visit Mumbai. </p><br><br>
+        <a href="https://in.hotels.com/de1640701-br81/taj-hotels-in-mumbai-india/?rffrid=sem.hcom.IN.google.003.00.04.s.kwrd=c.257163436457.51917722774.1112603227.1t2.dsa-463268633278.9040183..0.CjwKCAjwxILdBRBqEiwAHL2R87i3SkuyjT8ttenbYewTpmdYZEi-VOkqznXWTXF6GLU96kYeXZmQLBoClNYQAvD_BwE.aw.ds&PSRC=AFF05&gclid=CjwKCAjwxILdBRBqEiwAHL2R87i3SkuyjT8ttenbYewTpmdYZEi-VOkqznXWTXF6GLU96kYeXZmQLBoClNYQAvD_BwE&gclsrc=aw.ds">Booked Rooms</a>
+      </div>
+         <p class="text-center margin">
+          <br>
+              <a href="about.html" class="btn btn-primary">Read More</a>
+            </p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<div class="container product">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">Our Service</h2>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 productt1">
+   <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt1">
+     <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt1">
+    <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt1">
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+  </div>
+   <div class="row product">
+    <div class="col-md-3 productt">
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt">
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt">
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+    <div class="col-md-3 productt">
+       <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x100"></a>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container product">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Product</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h3>Our Product</h3>
+                <ul>
+                  <li><a href="#">Product1</a></li>
+                  <li><a href="#">Product2</a></li>
+                  <li><a href="#">Product3</a></li>
+                  <li><a href="#">Product4</a></li>
+                  <li><a href="#">Product5</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Contact Us</h3>
+          <form method="post" class="frm">
+            <div class="row">
+              <div class="col-md-6">
+            <div class="form-group">
+              <label>First Name<sup>*</sup></label>
+              <input type="text" name="name" class="form-control" placeholder="Your name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Last Name<sup>*</sup></label>
+              <input type="text" name="name" class="form-control" placeholder="Your name">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+              <div class="col-md-6">
+              <div class="form-group">
+              <label>Your Email<sup>*</sup></label>
+              <input type="email" name="email" class="form-control" placeholder="Your email">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Your Mobile<sup>*</sup></label>
+              <input type="text" name="mobile" class="form-control" placeholder="Your mobile">
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-12">
+            <div class="form-group">
+              <label>Your Comments<sup>*</sup></label>
+              <textarea name="comments" class="form-control" placeholder="Your comments"></textarea>
+            </div>
+          </div>
+        </div>
+            <div class="form-group text-right">
+              <button type="submit" name="submit" class="btn btn-success">Ask your query <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+</footer>
+<div class="bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">&copy; 2018. All rights reseved to <a href="#">Company Name</a></div>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: "#main", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $(".top a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+</body>
+</html>
+

@@ -1,0 +1,145 @@
+.navbar
+{
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default
+{
+	border-bottom-color: #ff0000;
+}
+
+.feature .glyphicon
+{
+	font-size: 28px;
+	transition: all 1s ease;
+}
+.feature .glyphicon:hover
+{
+	transform: scale(1.5) rotate(360deg);
+	color: #ff0000;
+	text-shadow: 0px 0px 5px #333;
+}
+
+.margin-right-15px
+{
+	margin-right: 15px !important;
+}
+
+.courses
+{
+	background-image: url('../images/crs.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 40px;
+}
+.courses .contentbox
+{
+	margin-top: 20px;
+}
+.courses h2 span
+{
+	padding: 5px 10px;
+	border:2px solid #fff;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 3px;
+	color: #fff;
+}
+.courses .panel-heading p
+{
+	font-size: 20px;
+}
+.courses .panel-body ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.courses .panel-body ul li
+{
+	list-style: none;
+	margin: 0px;
+}
+.courses .panel-body ul li:before
+{
+	content:'\f02d ';
+	font-family: FontAwesome;
+	display: inline-block;
+  	margin-left: 10px; /* same as padding-left set on li */
+  	width: 1.3em;
+  	color: #ff0000; 
+}
+footer
+{
+	background-color: #2a4d89;	
+	padding-bottom: 20px;
+	border-bottom: 1px solid #12213a;
+}
+footer h3
+{
+	color: #fff;
+	text-transform: capitalize;
+}
+
+footer label
+{
+	color: #ffbf00;
+}
+footer label sup
+{
+	color: #ff7f00;
+	font-weight: bold;
+	font-size: 20px;
+	top: 0px;
+}
+footer .frm
+{
+	background-color: rgba(255,255,255,0.3);
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+footer ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+footer ul li
+{
+	list-style: none;
+}
+footer ul li:before
+{
+	content:'\f0fb ';
+	font-family: FontAwesome;
+	display: inline-block;
+  	margin-left: 10px; /* same as padding-left set on li */
+  	width: 1.3em;
+  	color: #ffbf00; 
+}
+footer ul li a
+{
+	color: #00f6ff;
+} 
+footer ul li a:hover
+{
+	color: #fff;
+	text-decoration: none;
+	padding-left: 2px;
+	transition: all 0.5s ease;
+}
+.form-control
+{
+	resize: none;
+}
+.bottom
+{
+	background-color: #12213a;
+	color: #393d44;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #2a4d89;
+}
+.bottom a
+{
+	color: #595f68;
+}
